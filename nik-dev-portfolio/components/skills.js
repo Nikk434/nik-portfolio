@@ -93,7 +93,7 @@ export default function Skills() {
   ]
 
   return (
-    <section className="min-h-screen bg-gray-900 text-white py-20">
+    <section className="bg-gray-900 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Badge */}
         <div className="flex justify-center mb-6">
