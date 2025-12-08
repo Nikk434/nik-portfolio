@@ -27,8 +27,8 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
-            <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
-              About
+            <Link href="/skills" className="text-gray-300 hover:text-white transition-colors">
+              Skills
             </Link>
             <Link href="/experience" className="text-gray-300 hover:text-white transition-colors">
               Experience
@@ -80,8 +80,8 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden pt-4 pb-2 space-y-2">
-            <Link href="/about" className="block py-2 text-gray-300 hover:text-white transition-colors" onClick={toggleMenu}>
-              About
+            <Link href="/skills" className="block py-2 text-gray-300 hover:text-white transition-colors" onClick={toggleMenu}>
+              Skills
             </Link>
             <Link href="/experience" className="block py-2 text-gray-300 hover:text-white transition-colors" onClick={toggleMenu}>
               Experience
