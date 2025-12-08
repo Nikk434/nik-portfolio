@@ -11,10 +11,13 @@ export default function Hero() {
               Hi, I'm Nikhil <span className="inline-block animate-wave">👋</span>
             </h1>
             
-            <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 max-w-2xl">
-              I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) 
-              exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even 
-              though I have been creating web applications for over 7 years, I still love it as if it was something new.
+            <p className="text-gray-400 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 max-w-2xl text-justified">
+              Developer with experience building production ML systems from data
+              pipelines to deployment. Worked across computer vision, RAG systems, and
+              real time platforms, handling both model training and backend infrastructure.
+              Comfortable moving between training object detection models, optimizing
+              vector databases, and building APIs that scale. Focused on end-to-end
+              implementation rather than siloed specialization.
             </p>
 
             {/* Location and Availability */}
@@ -67,7 +70,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg transform rotate-10"></div>
               <div className="relative bg-gray-800 p-2 rounded-lg">
                 <Image
-                  src="/profile.jpg"
+                  src="/.jpg"
                   alt="Nikhil"
                   width={400}
                   height={400}
