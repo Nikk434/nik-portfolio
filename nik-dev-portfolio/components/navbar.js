@@ -2,15 +2,11 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import { useTheme } from '@/app/ThemeProvider'
 
 export default function Navbar() {
-  const [isDark, setIsDark] = useState(true)
+  const { isDark, toggleTheme } = useTheme()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
-  const toggleTheme = () => {
-    setIsDark(!isDark)
-    document.documentElement.classList.toggle('dark')
-  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)

@@ -70,7 +70,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg transform rotate-10"></div>
               <div className="relative bg-gray-800 p-2 rounded-lg">
                 <Image
-                  src="/.jpg"
+                  src="/profile.jpg"
                   alt="Nikhil"
                   width={400}
                   height={400}
