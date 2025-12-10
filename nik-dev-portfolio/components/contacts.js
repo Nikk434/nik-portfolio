@@ -45,7 +45,7 @@ export default function Contact() {
   ]
 
   return (
-    <section className=" g-[#0a0a0f] text-white py-20 flex items-center">
+    <section className=" g-[#0a0a0f] text-white py-20 flex items-center" id="contact">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 w-full">
         {/* Section Badge */}
         <div className="flex justify-center mb-6">
@@ -55,7 +55,7 @@ export default function Contact() {
         </div>
 
         {/* Section Title */}
-        <div className="text-2xl sm:text-2xl text-center mb-50 py-5">
+        <div className="text-2xl sm:text-2xl text-center mb-50 py-5 spcace-y-10">
           What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.
         </div>
 

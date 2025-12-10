@@ -22,7 +22,7 @@ export default function Experience() {
   ]
 
   return (
-    <section className="min-h-screen bg-[#0a0a0f] text-white py-20">
+    <section className="min-h-screen bg-[#0a0a0f] text-white py-20" id="experience">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         {/* Section Badge */}
         <div className="flex justify-center mb-6">

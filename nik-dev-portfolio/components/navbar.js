@@ -27,16 +27,16 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
-            <Link href="/skills" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#skills" className="text-gray-300 hover:text-white transition-colors">
               Skills
             </Link>
-            <Link href="/experience" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#experience" className="text-gray-300 hover:text-white transition-colors">
               Experience
             </Link>
-            <Link href="/projects" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#projects" className="text-gray-300 hover:text-white transition-colors">
               Projects
             </Link>
-            <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#contact" className="text-gray-300 hover:text-white transition-colors">
               Contact
             </Link>
 
