@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-white font-mono text-xl font-bold hover:text-gray-300 transition-colors">
-            &lt;nik/&gt;
+            &lt;nikhil/&gt;
           </Link>
 
           {/* Desktop Navigation */}
@@ -37,7 +37,7 @@ export default function Navbar() {
             </Link>
 
             {/* Theme Toggle */}
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 text-gray-300 hover:text-white transition-colors"
               aria-label="Toggle theme"
@@ -49,10 +49,10 @@ export default function Navbar() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                 )}
               </svg>
-            </button>
+            </button> */}
 
             {/* Resume Button */}
-            <a href="/resume.pdf" download className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition-colors font-medium">
+            <a href="/NIKHIL KSHIRSAGAR_resume.pdf.pdf" download className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition-colors font-medium">
               Download CV
             </a>
           </div>

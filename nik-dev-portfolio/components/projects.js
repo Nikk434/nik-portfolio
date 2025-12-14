@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: 'PlotTwist',
       description: 'A collaborative storytelling platform where users compete in writing challenges within timed matches. Each match includes a theme and participants craft short stories, which are then rated by peers. The platform aims to make writing interactive, competitive, and fun.',
-      image: '/projects/wingie.jpg',
+      image: '/Screenshot 2025-12-14 190613.png',
       tags: ['Python', 'FastAPI', 'Mongo DB', 'Next.js', 'React', 'Tailwind', 'Postman'],
       link: 'https://github.com/Nikk434/PlotTwist',
       reverse: false
@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: 'HouseBuddy',
       description: 'an intelligent RAG (Retrieval-Augmented Generation) chatbot designed to help end-users navigate the complexities of buying and owning property in India. From legal formalities to financial planning and document verification, HouseBuddy delivers accurate, source-cited answers using official data such as RERA documents',
-      image: '/projects/fiskil.jpg',
+      image: '/Screenshot 2025-12-14 191047.png',
       tags: ['Python','Flask','RAG','Next.js','Qdrant', 'Azure Cosmos DB'],
       link: 'https://github.com/Nikk434/housingBot',
       reverse: true
@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: 'AquaAnalyzer',
       description: 'AquaAnalyzer is an open-source AI-powered fish detection and monitoring system built for smart fisheries, aquaculture farms, and research applications using computer vision (YOLOv8), real-time video feeds, and digital geofencing',
-      image: '/projects/fiskil.jpg',
+      image: '/Screenshot 2025-12-14 194121.png',
       tags: ['Python','Yolo','Opencv','Selenium','Twilio API'],
       link: 'https://github.com/Nikk434/AquaAnalyzer01',
       reverse: false
