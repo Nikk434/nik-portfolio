@@ -52,7 +52,7 @@ export default function Navbar() {
             </button> */}
 
             {/* Resume Button */}
-            <a href="/NIKHIL KSHIRSAGAR_resume.pdf.pdf" download className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition-colors font-medium">
+            <a href="/NIKHIL KSHIRSAGAR_resume.pdf" download className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-200 transition-colors font-medium">
               Download CV
             </a>
           </div>
